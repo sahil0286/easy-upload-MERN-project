@@ -72,7 +72,7 @@ function Main() {
           <div className="row">
             <div className="input-group mb-3 col align-self-center">
               <input type="text" style={{width:"50%"}} className="form-control " placeholder="To get Download Link Upload File" value={result} />
-              <button className="input-group-text" onClick={()=>{copyLink(result)}}>Copy</button>
+              <button className="input-group-text btn btn-success" onClick={()=>{copyLink(result)}}>Copy Link</button>
             </div>
           </div>
         </div>
