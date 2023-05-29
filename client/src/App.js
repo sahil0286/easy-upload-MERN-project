@@ -1,6 +1,7 @@
 import './App.css';
 import { Footer } from "./components/Footer";
 import Main from "./components/Main";
+import { Steps } from './components/Steps';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
     <div className="container ">
       <Main/>
+      <Steps/>
     </div>
     </>
   );
