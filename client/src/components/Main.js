@@ -26,7 +26,7 @@ function Main() {
   const onUploadClick = () => {
     fileInputRef.current.click();
   };
-  console.log(file.name);
+  // console.log(file.name);
 
   const copyLink=(text)=>{
     const textarea = document.createElement('textarea');
@@ -35,7 +35,7 @@ function Main() {
     textarea.select();
     document.execCommand('copy');
     document.body.removeChild(textarea);
-    alert("Copyed!!");
+    alert("Copied !!");
   }
   return (
     <>
