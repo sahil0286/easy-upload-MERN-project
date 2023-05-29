@@ -27,6 +27,16 @@ function Main() {
     fileInputRef.current.click();
   };
   console.log(file.name);
+
+  const copyLink=(text)=>{
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    alert("Copyed!!");
+  }
   return (
     <>
       <div className="container my-5">
@@ -64,11 +74,12 @@ function Main() {
             >
               Secondary link
             </button>
-            <div className="input-group mb-3">
-              <input type="text" className="form-control" placeholder="To get Link Upload File" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-              <span className="input-group-text" id="basic-addon2">Copy</span>
+          </div>
+          <div className="row">
+            <div className="input-group mb-3 col align-self-center">
+              <input type="text" style={{width:"50%"}} className="form-control" placeholder="To get Link Upload File" aria-label="Recipient's username" value={result} aria-describedby="basic-addon2"/>
+              <button className="input-group-text" onClick={()=>{copyLink(result)}} id="basic-addon2">Copy</button>
             </div>
-            <a href={result}>{result}</a>
           </div>
         </div>
       </div>
