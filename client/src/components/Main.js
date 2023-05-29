@@ -60,7 +60,7 @@ function Main() {
               className="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
               type="button"
             >
-              Upload
+              Upload File
             </button>
             <input
               type="file"
@@ -68,17 +68,11 @@ function Main() {
               style={{ display: "none" }}
               onChange={(e) => setFile(e.target.files[0])}
             />
-            <button
-              className="btn btn-outline-secondary btn-lg px-4 rounded-pill"
-              type="button"
-            >
-              Secondary link
-            </button>
           </div>
           <div className="row">
             <div className="input-group mb-3 col align-self-center">
-              <input type="text" style={{width:"50%"}} className="form-control" placeholder="To get Link Upload File" aria-label="Recipient's username" value={result} aria-describedby="basic-addon2"/>
-              <button className="input-group-text" onClick={()=>{copyLink(result)}} id="basic-addon2">Copy</button>
+              <input type="text" style={{width:"50%"}} className="form-control " placeholder="To get Download Link Upload File" value={result} />
+              <button className="input-group-text" onClick={()=>{copyLink(result)}}>Copy</button>
             </div>
           </div>
         </div>
