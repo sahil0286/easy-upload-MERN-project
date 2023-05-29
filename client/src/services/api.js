@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const API_URL= "http://localhost:8000"
-const API_URL= "https://easy-upload-server.onrender.com"
+const API_URL= "http://localhost:8000"
+// const API_URL= "https://easy-upload-server.onrender.com"
 
 export const uploadFile= async (data)=>{
     try {
