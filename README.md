@@ -11,7 +11,15 @@ This MERN (MongoDB, Express, React, Node.js) project allows users to upload file
 
 ## Screenshot
 
+![e1](https://github.com/sahil0286/easy-upload/assets/119412630/e2d92b82-fd41-4163-a16a-d386fc462160)
 
+![e2](https://github.com/sahil0286/easy-upload/assets/119412630/fd2e90e8-f643-4279-bb6e-ad7dc2730083)
+
+![e3](https://github.com/sahil0286/easy-upload/assets/119412630/047ccc0e-f887-41e6-8e96-47c48baf1c1a)
+
+![e4](https://github.com/sahil0286/easy-upload/assets/119412630/61991ff9-258c-4b30-ab28-cb45496c2add)
+
+![e5](https://github.com/sahil0286/easy-upload/assets/119412630/1614ea1f-457d-4a16-bd96-20c2d148d69a)
 
 ## Getting Started
 
