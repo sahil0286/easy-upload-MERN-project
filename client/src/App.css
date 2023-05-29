@@ -3,6 +3,10 @@
 background: linear-gradient(90deg, rgba(179,240,241,1) 0%, rgba(45,253,191,0.87718837535014) 100%);
 } */
 
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 body  {
   background-image: url("../public/easy-upload-backgroundImg.webp");
   background-color: #cccccc;
