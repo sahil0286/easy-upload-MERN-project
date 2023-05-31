@@ -9,5 +9,6 @@ background: linear-gradient(90deg, rgba(179,240,241,1) 0%, rgba(45,253,191,0.877
 
 body  {
   background-image: url("../public/easy-upload-backgroundImg.webp");
+  background-repeat: no-repeat;
   background-color: #cccccc;
 }
