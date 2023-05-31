@@ -24,11 +24,11 @@ This MERN (MongoDB, Express, React, Node.js) project allows users to upload file
 ## Getting Started
 
 1. Clone the repository: `git clone https://github.com/sahil0286/easy-upload-MERN-project.git`
-2. Go to directory name backend:  `cd backend`
-3. Install dependencies for the backend : `npm install`
+2. Go to directory name server:  `cd server`
+3. Install dependencies for the server : `npm install`
 4. Start the backend server: `npm start`
-5. Go to directory name frontend : `cd frontend`
-6. Install dependencies for the frontend : `npm install`
+5. Go to directory name client : `cd client`
+6. Install dependencies for the client : `npm install`
 7. Start the frontend server: `npm start
 8. Access the application in your browser at: `http://localhost:3000`
 
